@@ -19,7 +19,7 @@ class School
   end
 
   def sort
-    @roster.sort do |grade, names|
+    @roster.sort_by do |grade, names|
       grade
     end
   end
