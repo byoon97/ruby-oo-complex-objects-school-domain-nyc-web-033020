@@ -18,6 +18,12 @@ class School
     @roster[num]
   end
 
+  def sort
+    @roster.sort do |grade, names|
+      grade
+    end
+  end
+
 
 
 
